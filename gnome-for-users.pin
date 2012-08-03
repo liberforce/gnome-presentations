@@ -1,0 +1,62 @@
+#!/usr/bin/env pinpoint
+
+[font=Sans 80px]
+#[text-color=black]
+[text-align=center]
+--
+GNOME
+
+un environnement
+de bureau convivial
+-- 
+Bref historique
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+1991
+
+-- 
+Linux 0.1
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+1995
+
+--
+2 étudiants mexicains
+décident de développer
+une alternative à KDE
+
+-- [miguel.jpg] [bottom]
+Miguel de Icaza
+
+-- [federico.jpg] [bottom]
+Federico Mena Quintero
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+1997
+
+--
+GNOME 1.0
+
+-- [gnome1.0.jpg]
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+2002
+
+--
+GNOME 2.0
+
+-- [gnome2.0.jpg]
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+2011
+
+--
+GNOME 3.0
+
+-- [gnome3.0.jpg]
+
+-- [font=Monospace 90px] [text-align=left]
+<span foreground='red' font-weight='bold'>K</span>eep
+<span foreground='red' font-weight='bold'>I</span>t
+<span foreground='red' font-weight='bold'>S</span>imple
+<span foreground='red' font-weight='bold'>S</span>tupid
