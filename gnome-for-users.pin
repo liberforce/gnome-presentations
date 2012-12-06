@@ -12,18 +12,53 @@ de bureau convivial
 Bref historique
 
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
-1991
+1983
 
--- 
-Linux 0.1
+-- [stallman.jpg] [bottom]
+Richard Stallman
+
+-- [gnu.png] [bottom]
+Fondation du projet GNU
+
+--
+GNU vise la création d'un 
+système d'exploitation libre
 
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
-1995
+1991
+
+-- [linus.jpg] [bottom]
+Linus Torvalds
+
+--
+Sortie de Linux 0.1
+
+--
+Linux devient le noyau
+du système d'exploitation GNU
+
+--
+On parle alors de GNU/Linux
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+1996
+
+--
+Le projet d'environnement
+de bureau KDE est créé
+
+--
+Celui ci est basé sur un logiciel
+propriétaire à l'époque: Qt
+
+-- [text-color=red][font=Sans bold 100px][transition=sheet]
+1997
 
 --
 2 étudiants mexicains
 décident de développer
-une alternative à KDE
+un environnement de bureau
+<span foreground='red' font-weight='bold'>libre</span>
 
 -- [miguel.jpg] [bottom]
 Miguel de Icaza
@@ -31,8 +66,14 @@ Miguel de Icaza
 -- [federico.jpg] [bottom]
 Federico Mena Quintero
 
+--
+Leur but est de fournir 
+une alternative à KDE
+utilisant uniquement 
+du logiciel libre
+
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
-1997
+1999
 
 --
 GNOME 1.0
@@ -60,3 +101,10 @@ GNOME 3.0
 <span foreground='red' font-weight='bold'>I</span>t
 <span foreground='red' font-weight='bold'>S</span>imple
 <span foreground='red' font-weight='bold'>S</span>tupid
+
+--
+Crédits photo:
+
+Logo GNU par Aurelio A. Heckert (CC-BY-SA 2.0)
+# http://www.gnu.org/graphics/heckert_gnu.fr.html
+
