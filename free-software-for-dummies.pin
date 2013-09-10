@@ -1,0 +1,142 @@
+[font=Sans 80px]
+[text-align=center]
+--
+Le logiciel libre
+c'est quoi ?
+-- [font=Sans bold 100px]
+Un logiciel ?
+-- [cake.jpg] [bottom]
+Un logiciel est
+comme un gâteau
+--
+Pour fabriquer ce logiciel
+il faut…
+--[source-code.jpg] [bottom]
+…une recette :
+le <b>code source</b>
+--
+Un logiciel est libre
+s'il possède les 
+<span foreground='red' font-weight='bold'>4 libertés</span> suivantes
+--
+<span foreground='red' font-weight='bold'>Liberté 0</span>
+
+Liberté d'utiliser le logiciel
+--
+<b>Aucune restriction d'usage :</b>
+Droit de manger le gâteau
+Droit d'en faire autre chose
+--
+<span foreground='red' font-weight='bold'>Liberté 1</span>
+
+Liberté de copier le logiciel
+--
+<b>Aucune restriction commerciale :</b>
+Droit de <i>donner</i> le gateau
+Droit de <i>vendre</i> le gateau
+--
+<span foreground='red' font-weight='bold'>Liberté 2</span>
+
+Liberté d'étudier le logiciel
+--
+Cette liberté implique
+<b>l'accès à la recette</b>
+--
+<span foreground='red' font-weight='bold'>Liberté 3</span>
+
+Liberté de modifier le logiciel 
+et de redistribuer les
+versions modifiées
+--
+Droit d'améliorer la recette
+Droit de la partager
+-- [font=Sans bold 100px]
+Le prix ?
+--
+Un logiciel libre
+peut être copié…
+--
+mais n'est
+<span foreground='red' font-weight='bold'>pas forcément gratuit</span>
+--
+même si dans les faits,
+il l'est souvent
+-- [text-color=red][font=Sans bold 100px]
+libre ≠ gratuit
+--
+Un logiciel libre respecte 
+les 4 libertés
+--
+Tout logiciel qui
+respecte les 4 libertés
+<span foreground='red' font-weight='bold'>est libre</span>
+--
+Un logiciel non-libre
+est appelé
+<span foreground='red' font-weight='bold'>logiciel propriétaire</span>
+ou parfois <span foreground='red' font-weight='bold'>logiciel privateur</span>
+--
+Exemples de logiciel propriétaires
+--
+<b>Le « gratuiciel » ou « freeware »</b>
+
+gratuit (mais libre ≠ gratuit)
+pas d'accès au code source
+pas de droit de modification
+pas de droit de redistribution
+--
+<b>Le « partagiciel » ou « shareware »</b>
+
+gratuité limité
+pas d'accès au code source
+pas de droit de modification
+pas de droit de redistribution
+--
+<b>Le logiciel commercial classique</b>
+
+à peu près aucun droits
+
+-- [font=Sans bold 100px]
+La licence
+--
+Les libertés ou restrictions
+d'un logiciel apparaissent
+dans la licence d'utilisation
+-- [licence.jpg]
+Oui, ce texte incompréhensible
+et long comme le bras que
+personne ne lit
+--
+Propriétaires ou libres
+tous les logiciels ont
+une licence d'utilisation
+--
+Il existe plusieurs licences libres
+--
+GPL, LGPL, MIT, BSD,
+WTFPL, domaine public, etc.
+--
+Elles introduisent d'autres libertés
+ou d'autres restrictions…
+--
+…mais respectent toutes 
+les <span foreground='red' font-weight='bold'>4 libertés</span>
+--
+Pas besoin
+de relire la licence
+--
+FIN
+-- [text-align=left]
+Crédits photos:
+
+cake.jpg:
+http://www.flickr.com/photos/jul/5114955479
+CC-BY Julien Menichini 
+
+source-code.jpg:
+http://www.flickr.com/photos/toolmantim/6170448143
+CC-BY Tim Lucas (toolmantim)
+
+licence.jpg:
+http://www.flickr.com/photos/stevend/617254854/
+CC-BY-NC-SA Steve the Alien 
