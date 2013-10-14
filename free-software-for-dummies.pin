@@ -1,21 +1,21 @@
 [font=Sans 80px]
 [text-align=center]
 --
-Le logiciel libre
-c'est quoi ?
--- [font=Sans bold 100px]
-Un logiciel ?
+Introduction au
+<b>logiciel libre</b>
 -- [cake.jpg] [bottom]
-Un logiciel est
+Un logiciel, c'est
 comme un gâteau
 --
-Pour fabriquer ce logiciel
-il faut…
---[source-code.jpg] [bottom]
-…une recette :
-le <b>code source</b>
+Pour fabriquer un gâteau,
+il faut une recette
 --
-Un logiciel est libre
+Pour un logiciel,
+on appelle cette « recette »…
+--[source-code.jpg] [bottom]
+…le <b>code source</b>
+--
+Un logiciel est <span foreground='red' font-weight='bold'>libre</span>
 s'il possède les 
 <span foreground='red' font-weight='bold'>4 libertés</span> suivantes
 --
@@ -58,14 +58,10 @@ peut être copié…
 --
 mais n'est
 <span foreground='red' font-weight='bold'>pas forcément gratuit</span>
---
-même si dans les faits,
-il l'est souvent
+<i>(même si dans les faits,
+il l'est souvent)</i>
 -- [text-color=red][font=Sans bold 100px]
 libre ≠ gratuit
---
-Un logiciel libre respecte 
-les 4 libertés
 --
 Tout logiciel qui
 respecte les 4 libertés
@@ -87,7 +83,7 @@ pas de droit de redistribution
 --
 <b>Le « partagiciel » ou « shareware »</b>
 
-gratuité limité
+gratuité limitée
 pas d'accès au code source
 pas de droit de modification
 pas de droit de redistribution
@@ -122,12 +118,17 @@ ou d'autres restrictions…
 …mais respectent toutes 
 les <span foreground='red' font-weight='bold'>4 libertés</span>
 --
-Pas besoin
-de relire la licence
+Les licences libres <span foreground='red' font-weight='bold'>protègent
+les libertés des utilisateurs</span>
 --
 FIN
--- [text-align=left]
-Crédits photos:
+-- [text-align=left][font=Sans 50px]
+<b>Licence texte: CC-BY</b>
+
+Auteur(s):
+Luis Menina
+
+<b>Licence images:</b>
 
 cake.jpg:
 http://www.flickr.com/photos/jul/5114955479
