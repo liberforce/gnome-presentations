@@ -48,9 +48,10 @@ Le projet d'environnement
 de bureau KDE est créé
 
 --
-Celui ci est basé sur un logiciel
-propriétaire à l'époque: Qt
+Il est basé sur un logiciel
+<span foreground='red' font-weight='bold'>propriétaire</span> à l'époque :
 
+Qt
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
 1997
 
@@ -62,22 +63,19 @@ un environnement de bureau
 
 -- [miguel.jpg] [bottom]
 Miguel de Icaza
-
 -- [federico.jpg] [bottom]
 Federico Mena Quintero
-
 --
 Leur but est de fournir 
 une alternative à KDE
 utilisant uniquement 
 du logiciel libre
-
+--
+Le projet GNOME est né
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
 1999
-
 --
 GNOME 1.0
-
 -- [gnome1.0.jpg]
 
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
@@ -85,7 +83,6 @@ GNOME 1.0
 
 --
 GNOME 2.0
-
 -- [gnome2.0.jpg]
 
 -- [text-color=red][font=Sans bold 100px][transition=sheet]
@@ -103,8 +100,16 @@ GNOME 3.0
 <span foreground='red' font-weight='bold'>S</span>tupid
 
 --
-Crédits photo:
+FIN
+-- [text-align=left]
+<b>Licence texte: CC-BY</b>
 
-Logo GNU par Aurelio A. Heckert (CC-BY-SA 2.0)
-# http://www.gnu.org/graphics/heckert_gnu.fr.html
+Auteur(s):
+Luis Menina
+
+<b>Licence images :</b>
+
+gnu.png: Logo GNU 
+http://www.gnu.org/graphics/heckert_gnu.fr.html
+CC-BY-SA 2.0 - Aurelio A. Heckert
 
