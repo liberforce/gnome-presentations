@@ -1,0 +1,79 @@
+#!/usr/bin/env pinpoint
+
+[font=Sans 100px]
+#[text-color=black]
+[text-align=center]
+--
+
+Créer une application:
+
+le guide incomplet…
+mais pratique quand même
+
+-- [text-align=left]
+Me, myself and I…
+
+• Apprenti ingénieur entre 1999 et 2002
+• Développeur/intégrateur depuis 2002
+• Initialement Développeur Windows/MFC
+• Migration sous GNU/Linux en 2001
+• Membre de l'association GNOME-FR
+
+--
+Notre application :
+
+-- [font=monospace 100px][text-align=left]
+
+ #include <stdio.h>
+ 
+ int main (int argc, char *argv)
+ {
+     printf ("Hello, World !");
+     return 0;
+ }
+
+-- [idea.jpg][fill]
+
+--
+ diagramme de présentation du workflow
+--
+ éditeur de texte/IDE
+--
+ choix du langage (langages courants, langage adapté à la tâche, évoquer la migration C → Rust de librsvg)
+--
+ compilateur/interpréteur
+--
+ build systems (autotools, CMake, meson)
+--
+ debogueur (gdb, nemiver; pdb) vs printf
+--
+ choix d'une licence
+--
+ logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
+--
+ bonnes pratiques d'ingéniérie logiciel (joel test)
+  --
+ revision control system (Subversion, git, git-svn, cpold)
+  --
+ bugtracker (bugzilla, mantis, etc.)
+  --
+ revue de code
+--
+ toolkits graphiques (Qt, GTK)
+--
+ bonnes pratiques de codage (portabilité, coding style & PEP8, commentaire en anglais cf libre office, zen of python)
+--
+ mauvaises pratiques (NIH, code spaghetti)
+--
+ analyseur statique de code (*lint, deblint, pylint, coala)
+--
+ frameworks de test unitaires
+--
+ portabilité
+--
+ sécurité (conteneurs, flatpak)
+
+--
+Crédits photo:
+
+
