@@ -15,29 +15,168 @@ Me, myself and I…
 
 • Apprenti ingénieur entre 1999 et 2002
 • Développeur/intégrateur depuis 2002
-• Initialement Développeur Windows/MFC
+• Initialement développeur Windows/MFC
 • Migration sous GNU/Linux en 2001
-• Membre de l'association GNOME-FR
+--
+À la base de chaque application :
+
+-- [idea.jpg][fill][top-left]
+l'idée
 
 --
-Notre application :
+Exemple d'application :
+
+affichage d'un message à l'utilisateur
+
+-- [text-align=left]
+<span foreground="red"><b>Implémentation possible :</b></span>
+
+<tt>#include &lt;stdio.h&gt;
+
+int main (int argc, char *argv[])
+{
+    printf ("Hello, World !");
+    return 0;
+}</tt>
 
 -- [font=monospace 100px][text-align=left]
-
- #include <stdio.h>
- 
- int main (int argc, char *argv)
- {
-     printf ("Hello, World !");
-     return 0;
- }
-
--- [idea.jpg][fill]
-
+./hello-world
+Hello, World !
 --
- diagramme de présentation du workflow
+Simple, et pourtant...
 --
- éditeur de texte/IDE
+Outils utilisés à ce stade :
+-- [text-align=left][toolbox.png][bottom]
+• éditeur de texte
+• langage de programmation
+• compilateur
+• système d'exploitation
+--
+Choix implicites :
+-- [text-align=left]
+1. votre plateforme favorite ♥ 
+2. votre éditeur de texte favori ♥
+3. votre langage favori ♥
+4. votre compilateur/interpréteur ♥
+--
+Quelques questions
+à se poser
+<span foreground="red">avant</span> de commencer
+--
+<span foreground="red">Quelle plate-forme(s) logicielle(s) ?</span>
+
+Windows ? GNU/Linux ? macOS ?
+iOS ? Android ? …
+Navigateur Web ?
+--
+<span foreground="red">Quelle version(s) ?</span>
+
+Windows 10 ? Fedora 25 ? …
+--
+<span foreground="red">Quelle plate-forme(s) matérielle(s) ?</span>
+
+x86 ? ARM ? …
+--
+<span foreground="red">Quel langage… pour quel usage ?</span>
+
+contraintes différentes → choix différents
+
+portabilité
+performance
+maintenance
+écosystème
+--
+<span foreground="red">Quel langage… compilé ?</span>
+
+C, C++, Java, …
+--
+<span foreground="red">Quel langage… interprété ?</span>
+
+javascript, python, perl, …
+--
+<span foreground="red">Cible différente de l'hôte ?</span>
+
+→ compilation croisée
+<i>(si utilisation d'un langage compilé)</i>
+--
+<span foreground="red">Quelle version de standard ?</span>
+
+<span foreground="red">C++</span>: C++98, C+03, C++11
+<span foreground="red">C</span>: C89, C99, C11
+<span foreground="red">Python</span>: 2.7, 3.x
+--
+etc.
+--
+<span foreground="red"><big>« Il est tentant, quand on n'a
+pour seul outil un marteau,
+de tout traiter comme un clou »</big></span>
+
+
+<small>- Abraham Maslow
+The Psychology of Science:
+A Reconnaissance
+(1966)</small>
+-- [toolbox.png][fill][bottom]
+Trouvez vos outils
+Suivez les bonnes pratiques
+-- [keyboard.jpg][fill]
+L'éditeur de texte
+--
+<span foreground="red">Indépendant</span>
+
+Vim
+Emacs
+SublimeText
+Notepad++
+etc.
+--
+<span foreground="red">Intégré dans un IDE</span>
+
+Eclipse
+Visual Studio
+Code::Blocks
+GNOME Builder
+etc.
+-- [text-align=left]
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+• coloration syntaxique
+• marque-pages
+• indentation automatique
+• macros
+• remplacement de texte
+• bonne gestion multi-documents
+• sélection rectangulaire
+• extensible
+--
+<b>Bonnes pratiques d'édition</b>
+--
+<span foreground="red">Respectez les conventions
+du document que vous éditez…</span>
+--
+<span foreground="red">…ou adoptez les conventions du langage</span>
+
+Python PEP8: <small>https://www.python.org/dev/peps/pep-0008/</small>
+-- [text-align=left]
+<span foreground="red">Respectez l'indentation</span>
+
+→ configurez votre éditeur !
+
+• facilite la lecture des diffs
+• évite l'attribution
+• virgule après le dernier élément
+--
+<span foreground="red">Respectez la casse</span>
+
+snake_case vs CamelCase vs javaCase
+-- [toolbox.png][fill][bottom]
+<span foreground="red">Trouvez votre workflow</span>
+-- [toolbox.png][fill][bottom]
+<span foreground="red">Suivez les bonnes pratiques</span>
+--
+
+LICENCE
+diagramme de présentation du workflow
 --
  choix du langage (langages courants, langage adapté à la tâche, évoquer la migration C → Rust de librsvg)
 --
@@ -61,7 +200,7 @@ Notre application :
 --
  toolkits graphiques (Qt, GTK)
 --
- bonnes pratiques de codage (portabilité, coding style & PEP8, commentaire en anglais cf libre office, zen of python)
+ bonnes pratiques de codage (portabilité, coding style et PEP8, commentaire en anglais cf libre office, zen of python)
 --
  mauvaises pratiques (NIH, code spaghetti)
 --
