@@ -10,27 +10,16 @@ Créer une application:
 le guide incomplet…
 mais pratique quand même
 
--- [text-align=left]
-Me, myself and I…
-
-• Apprenti ingénieur entre 1999 et 2002
-• Développeur/intégrateur depuis 2002
-• Initialement développeur Windows/MFC
-• Migration sous GNU/Linux en 2001
 --
 À la base de chaque application :
 
 -- [idea.jpg][fill][top-left]
-l'idée
-
---
-Exemple d'application :
-
-affichage d'un message à l'utilisateur
-
+idée
+-- [conception.jpg][fill][left]
+conception
+-- [source-code.jpg][fill][top-right]
+implémentation
 -- [text-align=left]
-<span foreground="red"><b>Implémentation possible :</b></span>
-
 <tt>#include &lt;stdio.h&gt;
 
 int main (int argc, char *argv[])
@@ -42,8 +31,13 @@ int main (int argc, char *argv[])
 -- [font=monospace 100px][text-align=left]
 ./hello-world
 Hello, World !
+-- [money.jpg][fill]
+profit !
 --
-Simple, et pourtant...
+Simpl(ist)e, et pourtant...
+--
+Pour créer, il faut
+des <span foreground="red">outils</span>
 --
 Outils utilisés à ce stade :
 -- [text-align=left][toolbox.png][bottom]
@@ -54,10 +48,10 @@ Outils utilisés à ce stade :
 --
 Choix implicites :
 -- [text-align=left]
-1. votre plateforme favorite ♥ 
-2. votre éditeur de texte favori ♥
-3. votre langage favori ♥
-4. votre compilateur/interpréteur ♥
+1. plateforme favorite ♥ 
+2. éditeur de texte favori ♥
+3. langage favori ♥
+4. compilateur/interpréteur ♥
 --
 Quelques questions
 à se poser
@@ -117,8 +111,9 @@ The Psychology of Science:
 A Reconnaissance
 (1966)</small>
 -- [toolbox.png][fill][bottom]
-Trouvez vos outils
-Suivez les bonnes pratiques
+Trouvez <i>vos</i> outils
+-- [troll.jpg][bottom]
+30 langages = 30 marteaux
 -- [keyboard.jpg][fill]
 L'éditeur de texte
 --
@@ -145,11 +140,13 @@ etc.
 • indentation automatique
 • macros
 • remplacement de texte
-• bonne gestion multi-documents
+• multi-documents
 • sélection rectangulaire
 • extensible
+-- [toolbox.png][fill][bottom]
++1
 --
-<b>Bonnes pratiques d'édition</b>
+<b>Bonnes pratiques d'édition :</b>
 --
 <span foreground="red">Respectez les conventions
 du document que vous éditez…</span>
@@ -168,7 +165,75 @@ Python PEP8: <small>https://www.python.org/dev/peps/pep-0008/</small>
 --
 <span foreground="red">Respectez la casse</span>
 
-snake_case vs CamelCase vs javaCase
+snake_case
+CamelCase
+mixedCase
+--
+<span foreground="red">Respectez le codage (charset)</span>
+
+<tt>printf (<span foreground="violet">"©o®ação = ♥"</span>);</tt>
+
+<big>UTF-8</big> vs <small><s>ISO 8859-1</s></small>
+--
+<span foreground="red">Respectez la langue</span>
+
+fonctions
+variables
+commentaires
+
+<big><b>en anglais !</b></big>
+-- [text-align=left]
+→ plus court
+→ plus facile à diffuser (S.O ☺)
+→ ayez pitié
+-- [libreoffice-german-comments.png]
+LibreOffice
+-- [white][libreoffice-origins.png][bottom]
+32 ans !
+-- [trump.png][fill]
+<b>Anglais US</b>
+-- [programming-languages.jpg][fill]
+Langages
+--
+<span foreground="red">Choisissez un langage</span>
+
+le plus adapté
+parmi ceux que maîtrisez
+--
+Occasion d'apprendre
+un nouveau langage ?
+-- [librsvg-logo.png][bottom]
+https://git.gnome.org/browse/librsvg/
+-- [federico.jpg][fill][bottom-left][text-align=left][shading-opacity=0.000000]
+<span foreground="red">C
+2001
+Federico
+XML → bitmap</span>
+--
+migration C → Rust
+
+
+
+https://people.gnome.org/~federico/news-2016-10.html#25
+--
+<span foreground="red">C</span>
+
+langage difficile
+gestion mémoire
+sécurité (buffer overflow)
+-- [text-align=left]
+fichiers mal formés en production :
+→ crash
+→ faille de sécurité
+--
+<span foreground="red">Rust</span>
+
+orienté objet
+Mozilla (oxydation)
+détection à la compilation
+--
+choix du langage (langages courants, portabilité des chemins, langage adapté à la tâche, évoquer la migration C → Rust de librsvg)
+
 -- [toolbox.png][fill][bottom]
 <span foreground="red">Trouvez votre workflow</span>
 -- [toolbox.png][fill][bottom]
@@ -176,9 +241,12 @@ snake_case vs CamelCase vs javaCase
 --
 
 LICENCE
-diagramme de présentation du workflow
+ne pas copier/coller du code sans connaitre exactement la licence et les droits
+libre ne veut pas dire compatible
+dwheeler
+logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
 --
- choix du langage (langages courants, langage adapté à la tâche, évoquer la migration C → Rust de librsvg)
+analyseurs statiques (coala, pylint, shellcheck)
 --
  compilateur/interpréteur
 --
@@ -188,15 +256,11 @@ diagramme de présentation du workflow
 --
  choix d'une licence
 --
- logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
---
  bonnes pratiques d'ingéniérie logiciel (joel test)
   --
  revision control system (Subversion, git, git-svn, cpold)
   --
  bugtracker (bugzilla, mantis, etc.)
-  --
- revue de code
 --
  toolkits graphiques (Qt, GTK)
 --
@@ -207,12 +271,3 @@ diagramme de présentation du workflow
  analyseur statique de code (*lint, deblint, pylint, coala)
 --
  frameworks de test unitaires
---
- portabilité
---
- sécurité (conteneurs, flatpak)
-
---
-Crédits photo:
-
-
