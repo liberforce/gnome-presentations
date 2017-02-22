@@ -106,7 +106,7 @@ pour seul outil un marteau,
 de tout traiter comme un clou »</big></span>
 
 
-<small>- Abraham Maslow
+<small>Abraham Maslow
 The Psychology of Science:
 A Reconnaissance
 (1966)</small>
@@ -161,7 +161,75 @@ Python PEP8: <small>https://www.python.org/dev/peps/pep-0008/</small>
 
 • facilite la lecture des diffs
 • évite l'attribution
-• virgule après le dernier élément
+-- [programming-languages.jpg][fill]
+Langages
+--
+<span foreground="red">Choix du langage</span>
+
+le plus adapté… parmi ceux que maîtrisez
+--
+Occasion d'apprendre
+un nouveau langage ?
+-- [librsvg-logo.png][bottom]
+https://git.gnome.org/browse/librsvg/
+-- [federico.jpg][fill][bottom-left][text-align=left][shading-opacity=0.000000]
+<span foreground="red">C
+2001
+Federico
+XML → bitmap</span>
+--
+<span foreground="red"><big>Migration C → Rust</big></span>
+
+
+
+<small>https://people.gnome.org/~federico/news-2016-10.html#25</small>
+--
+<span foreground="red">C</span>
+
+langage difficile
+gestion mémoire
+sécurité (buffer overflow)
+-- [text-align=left]
+<span foreground="red">C: risques</span>
+fichiers mal formés :
+→ crash
+→ faille de sécurité
+
+<b>Critique en production</b>
+--
+<span foreground="red">Rust</span>
+
+soutenu par Mozilla et Samsung
+utilisé dans Firefox (<span foreground="brown">oxydation</span>, Quantum)
+# Mozilla Servo (moteur de rendu, projet de recherche)
+# Quantum (merge de Servo dans Gecko) https://wiki.mozilla.org/Quantum
+
+https://www.rust-lang.org/fr/
+--
+<span foreground="red">Objectifs de Rust</span>
+
+parallélisme
+gestion mémoire
+# pas de null, pas de ramasse miettes
+sécurité
+-- [text-align=left]
+<tt>fn main() {
+    println!("Hello, Rust!");
+}</tt>
+--
+<span foreground="red">Migration → Rust</span>
+
+intégrable dans du code C
+migration par morceaux
+--
+<span foreground="red">« Vous n'avez pas besoin de tout réécrire en une fois.
+Je ne connais pas d'autre langage qui permette cela. »</span>
+
+<small><i>Federico Mena Quintero, 2016</i></small>
+--
+IoT ?
+--
+<b>Bonnes pratiques de codage :</b>
 --
 <span foreground="red">Respectez la casse</span>
 
@@ -175,6 +243,14 @@ mixedCase
 
 <big>UTF-8</big> vs <small><s>ISO 8859-1</s></small>
 --
+<span foreground="red">Écrivez du code portable</span>
+
+<small><i>(essayez)</i></small>
+
+chemins du système de fichiers
+# os.path.join()
+# g_build_path() via glib
+--
 <span foreground="red">Respectez la langue</span>
 
 fonctions
@@ -185,54 +261,63 @@ commentaires
 -- [text-align=left]
 → plus court
 → plus facile à diffuser (S.O ☺)
-→ ayez pitié
+→ maintenable
 -- [libreoffice-german-comments.png]
 LibreOffice
 -- [white][libreoffice-origins.png][bottom]
 32 ans !
 -- [trump.png][fill]
 <b>Anglais US</b>
--- [programming-languages.jpg][fill]
-Langages
+-- [font=monospace 100px][text-align=left]
+<span foreground='red' font-weight='bold'>D</span>on't
+<span foreground='red' font-weight='bold'>R</span>epeat
+<span foreground='red' font-weight='bold'>Y</span>ourself
+# générateur de release notes
+-- [font=monospace 100px][text-align=left]
+<span foreground='red' font-weight='bold'>K</span>eep
+<span foreground='red' font-weight='bold'>I</span>t
+<span foreground='red' font-weight='bold'>S</span>imple
+<span foreground='red' font-weight='bold'>S</span>tupid
+# héritage multiple RATP
+-- [font=monospace 100px][text-align=left]
+<span foreground='red' font-weight='bold'>N</span>ot
+<span foreground='red' font-weight='bold'>I</span>nvented
+<span foreground='red' font-weight='bold'>H</span>ere
+# réimplémenter ses formats de date
+# listes chaînées
 --
-<span foreground="red">Choisissez un langage</span>
+<span foreground="red">Zen of Python</span>
 
-le plus adapté
-parmi ceux que maîtrisez
---
-Occasion d'apprendre
-un nouveau langage ?
--- [librsvg-logo.png][bottom]
-https://git.gnome.org/browse/librsvg/
--- [federico.jpg][fill][bottom-left][text-align=left][shading-opacity=0.000000]
-<span foreground="red">C
-2001
-Federico
-XML → bitmap</span>
---
-migration C → Rust
-
-
-
-https://people.gnome.org/~federico/news-2016-10.html#25
---
-<span foreground="red">C</span>
-
-langage difficile
-gestion mémoire
-sécurité (buffer overflow)
+https://www.python.org/dev/peps/pep-0020/
+-- [toolbox.png][fill][bottom]
++1
+-- [git-branching-model.png][fill]
+Systèmes de gestion de version
 -- [text-align=left]
-fichiers mal formés en production :
-→ crash
-→ faille de sécurité
---
-<span foreground="red">Rust</span>
+Sondage !
 
-orienté objet
-Mozilla (oxydation)
-détection à la compilation
+✔ CVS
+✔ Subversion
+✔ Git
+✔ Perforce
+✔ Mercurial
+✔ PVCS
+✔ Microsoft SourceSafe
+✔ Rationale Synergy
+# revision control system (Subversion, git, git-svn, cpold)
 --
-choix du langage (langages courants, portabilité des chemins, langage adapté à la tâche, évoquer la migration C → Rust de librsvg)
+<span foreground="red">Systèmes centralisés</span>
+
+Serveur HS = intégrateur bloqué
+--
+<span foreground="red">Systèmes centralisés</span>
+
+Build systems
+--
+Analyseurs statiques
+# analyseurs statiques (*lint, deblint, pylint, coala, shellcheck)
+--
+<span foreground='red'>Coala</span>
 
 -- [toolbox.png][fill][bottom]
 <span foreground="red">Trouvez votre workflow</span>
@@ -246,7 +331,6 @@ libre ne veut pas dire compatible
 dwheeler
 logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
 --
-analyseurs statiques (coala, pylint, shellcheck)
 --
  compilateur/interpréteur
 --
@@ -258,16 +342,9 @@ analyseurs statiques (coala, pylint, shellcheck)
 --
  bonnes pratiques d'ingéniérie logiciel (joel test)
   --
- revision control system (Subversion, git, git-svn, cpold)
   --
  bugtracker (bugzilla, mantis, etc.)
 --
  toolkits graphiques (Qt, GTK)
---
- bonnes pratiques de codage (portabilité, coding style et PEP8, commentaire en anglais cf libre office, zen of python)
---
- mauvaises pratiques (NIH, code spaghetti)
---
- analyseur statique de code (*lint, deblint, pylint, coala)
 --
  frameworks de test unitaires
