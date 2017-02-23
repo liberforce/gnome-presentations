@@ -1,5 +1,8 @@
 #!/usr/bin/env pinpoint
 
+# Author: Luis Menina (liberforce)
+# License: CC BY 4.0+
+
 [font=Sans 100px]
 #[text-color=black]
 [text-align=center]
@@ -33,25 +36,20 @@ int main (int argc, char *argv[])
 Hello, World !
 -- [money.jpg][fill]
 profit !
+\#penelope
 --
 Simpl(ist)e, et pourtant...
 --
 Pour créer, il faut
 des <span foreground="red">outils</span>
 --
-Outils utilisés à ce stade :
+Même pour une application triviale,
+vous aurez utilisé…
 -- [text-align=left][toolbox.png][bottom]
 • éditeur de texte
 • langage de programmation
-• compilateur
+• compilateur/interpréteur
 • système d'exploitation
---
-Choix implicites :
--- [text-align=left]
-1. plateforme favorite ♥ 
-2. éditeur de texte favori ♥
-3. langage favori ♥
-4. compilateur/interpréteur ♥
 --
 Quelques questions
 à se poser
@@ -59,17 +57,17 @@ Quelques questions
 --
 <span foreground="red">Quelle plate-forme(s) logicielle(s) ?</span>
 
-Windows ? GNU/Linux ? macOS ?
-iOS ? Android ? …
-Navigateur Web ?
+# Windows ? GNU/Linux ? macOS ?
+# iOS ? Android ? …
+# Navigateur Web ?
 --
 <span foreground="red">Quelle version(s) ?</span>
 
-Windows 10 ? Fedora 25 ? …
+# Windows 10 ? Fedora 25 ? …
 --
 <span foreground="red">Quelle plate-forme(s) matérielle(s) ?</span>
 
-x86 ? ARM ? …
+# x86 ? ARM ? …
 --
 <span foreground="red">Quel langage… pour quel usage ?</span>
 
@@ -82,11 +80,11 @@ maintenance
 --
 <span foreground="red">Quel langage… compilé ?</span>
 
-C, C++, Java, …
+#C, C++, Java, …
 --
 <span foreground="red">Quel langage… interprété ?</span>
 
-javascript, python, perl, …
+#javascript, python, perl, …
 --
 <span foreground="red">Cible différente de l'hôte ?</span>
 
@@ -106,7 +104,7 @@ pour seul outil un marteau,
 de tout traiter comme un clou »</big></span>
 
 
-<small>Abraham Maslow
+<small>— Abraham Maslow
 The Psychology of Science:
 A Reconnaissance
 (1966)</small>
@@ -161,6 +159,9 @@ Python PEP8: <small>https://www.python.org/dev/peps/pep-0008/</small>
 
 • facilite la lecture des diffs
 • évite l'attribution
+• sémantiquement important
+
+# Python, Makefile
 -- [programming-languages.jpg][fill]
 Langages
 --
@@ -180,7 +181,7 @@ XML → bitmap</span>
 --
 <span foreground="red"><big>Migration C → Rust</big></span>
 
-
+<span foreground="brown">oxydation</span>
 
 <small>https://people.gnome.org/~federico/news-2016-10.html#25</small>
 --
@@ -190,7 +191,7 @@ langage difficile
 gestion mémoire
 sécurité (buffer overflow)
 -- [text-align=left]
-<span foreground="red">C: risques</span>
+<span foreground="red">C : risques</span>
 fichiers mal formés :
 → crash
 → faille de sécurité
@@ -200,9 +201,10 @@ fichiers mal formés :
 <span foreground="red">Rust</span>
 
 soutenu par Mozilla et Samsung
-utilisé dans Firefox (<span foreground="brown">oxydation</span>, Quantum)
+utilisé dans Firefox (Servo, Quantum)
 # Mozilla Servo (moteur de rendu, projet de recherche)
-# Quantum (merge de Servo dans Gecko) https://wiki.mozilla.org/Quantum
+# Quantum (merge de Servo dans Gecko)
+# https://wiki.mozilla.org/Quantum
 
 https://www.rust-lang.org/fr/
 --
@@ -225,7 +227,7 @@ migration par morceaux
 <span foreground="red">« Vous n'avez pas besoin de tout réécrire en une fois.
 Je ne connais pas d'autre langage qui permette cela. »</span>
 
-<small><i>Federico Mena Quintero, 2016</i></small>
+<small><i>— Federico Mena Quintero, 2016</i></small>
 --
 IoT ?
 --
@@ -268,6 +270,8 @@ LibreOffice
 32 ans !
 -- [trump.png][fill]
 <b>Anglais US</b>
+--
+<b>Mantras du développeur</b>
 -- [font=monospace 100px][text-align=left]
 <span foreground='red' font-weight='bold'>D</span>on't
 <span foreground='red' font-weight='bold'>R</span>epeat
@@ -293,58 +297,144 @@ https://www.python.org/dev/peps/pep-0020/
 +1
 -- [git-branching-model.png][fill]
 Systèmes de gestion de version
--- [text-align=left]
-Sondage !
+-- [text-align=left][poll.png][fill]
+<span foreground="red">Sondage !</span>
 
 ✔ CVS
-✔ Subversion
+✔ Subversion (SVN)
 ✔ Git
 ✔ Perforce
 ✔ Mercurial
 ✔ PVCS
 ✔ Microsoft SourceSafe
 ✔ Rationale Synergy
-# revision control system (Subversion, git, git-svn, cpold)
---
-<span foreground="red">Systèmes centralisés</span>
+✔ cpold
+-- [joel.jpg][bottom]
+<span foreground="red"><big>Le test de Joël</big></span>
 
-Serveur HS = intégrateur bloqué
+http://french.joelonsoftware.com/Articles/TheJoelTest.html
+-- [text-align=left]
+<span foreground="green"><big>1. Utilisez-vous un système de gestion de code source ?</big></span>
+<small>2. Pouvez-vous faire un build en une seule étape ?
+3. Faites-vous des builds quotidiens ?
+4. Avez-vous une base de données de bugs ?
+5. Corrigez-vous vos bugs avant d'écrire du nouveau code ?
+6. Avez-vous un planning à jour ?
+7. Avez-vous une spec ?
+8. Les programmeurs bénéficient-ils d'un environnement de travail calme ?
+9. Utilisez-vous les meilleurs outils que vous puissiez vous payer ?
+10. Avez-vous des testeurs ?
+11. Les candidats écrivent-ils du code pendant leur entretien d'embauche ?
+12. Faites-vous des tests d'utilisabilité de couloir ?</small>
 --
-<span foreground="red">Systèmes centralisés</span>
+<span foreground="red">Définitions</span>
 
+checkout/clone
+# Récupération des données du serveur
+commit
+# Enregistre des modifications
+branch
+# Crée une nouvelle version indépendante
+merge
+# Fusionne les modifications de 2 branches
+--
+<span foreground="red">Systèmes centralisés (SVN)</span>
+
+serveur et réseau critiques
+# Single Point Of Failure
+distant = lent (latence, débit)
+1 → n
+# latence -> opérations lentes
+# téléchargements lents -> mirroir SVN
+
+# merge impossible
+# commit impossible
+--
+<span foreground="red">Systèmes décentralisés (Git)</span>
+
+-- [git.png][bottom]
+https://git-scm.com/
+-- [linus.jpg][fill][top-left][text-align=left]
+<span foreground="red">Linus
+1991: Linux
+2005: git</span>
+--
+<span foreground="red">Git : avantages</span>
+
+agilité
+local = rapide
+branches multiples
+merge facilité
+1 → n ou n → n
+--
+<span foreground="red">Git : bonus</span>
+
+interopérabilité SVN (git-svn)
+chaque clone est une sauvegarde
+workflow de petits commits
+--
+<span foreground="red">☹ Git</span>
+
+plus grande complexité
+développeur → intégrateur
+gros binaires
+# utilisez plutôt git-annex
+-- [text-align=left]
+<span foreground="red">Git: créer un dépôt</span>
+# au début de votre prochain entretien technique
+
+<tt>git init
+git add .
+git commit</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git rebase --interactive</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git commit --amend</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git add --patch</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git stash</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git bissect</tt>
+--
+<span foreground="red">♥ Git</span>
+
+<tt>git format-patch</tt>
+--
+<b>Bonnes pratiques gestion de version :</b>
+--
+diff avant commit !
+-- [angry-linus.jpg][fill][bottom]
++1
+--
 Build systems
 --
 Analyseurs statiques
-# analyseurs statiques (*lint, deblint, pylint, coala, shellcheck)
 --
 <span foreground='red'>Coala</span>
+(*lint, deblint, pylint, coala, shellcheck)
+--
+Licences
 
+# ne pas copier/coller du code sans connaitre exactement la licence et les droits
+# libre ne veut pas dire compatible
+# dwheeler
+# logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
+
+-- [toolbox.png][fill][bottom]
+<span foreground="red">Trouvez vos outils</span>
 -- [toolbox.png][fill][bottom]
 <span foreground="red">Trouvez votre workflow</span>
--- [toolbox.png][fill][bottom]
-<span foreground="red">Suivez les bonnes pratiques</span>
 --
-
-LICENCE
-ne pas copier/coller du code sans connaitre exactement la licence et les droits
-libre ne veut pas dire compatible
-dwheeler
-logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
+FIN
 --
---
- compilateur/interpréteur
---
- build systems (autotools, CMake, meson)
---
- debogueur (gdb, nemiver; pdb) vs printf
---
- choix d'une licence
---
- bonnes pratiques d'ingéniérie logiciel (joel test)
-  --
-  --
- bugtracker (bugzilla, mantis, etc.)
---
- toolkits graphiques (Qt, GTK)
---
- frameworks de test unitaires
