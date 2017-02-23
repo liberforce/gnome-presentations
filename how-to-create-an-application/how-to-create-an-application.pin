@@ -12,7 +12,12 @@ Créer une application:
 
 le guide incomplet…
 mais pratique quand même
+-- [text-align=left]
+<span foreground="red">Luis Menina</span>
 
+• 2002 : Ingénieur (filière apprentissage)
+• 2003 : Windows → GNU/Linux
+• 2014 : Développeur et intégrateur pour Peaks
 --
 À la base de chaque application :
 
@@ -38,10 +43,10 @@ Hello, World !
 profit !
 \#penelope
 --
-Simpl(ist)e, et pourtant...
+Simple, et pourtant…
 --
-Pour créer, il faut
-des <span foreground="red">outils</span>
+… impossible sans
+<span foreground="red" font-weight="bold">outils</span>
 --
 Même pour une application triviale,
 vous aurez utilisé…
@@ -50,54 +55,6 @@ vous aurez utilisé…
 • langage de programmation
 • compilateur/interpréteur
 • système d'exploitation
---
-Quelques questions
-à se poser
-<span foreground="red">avant</span> de commencer
---
-<span foreground="red">Quelle plate-forme(s) logicielle(s) ?</span>
-
-# Windows ? GNU/Linux ? macOS ?
-# iOS ? Android ? …
-# Navigateur Web ?
---
-<span foreground="red">Quelle version(s) ?</span>
-
-# Windows 10 ? Fedora 25 ? …
---
-<span foreground="red">Quelle plate-forme(s) matérielle(s) ?</span>
-
-# x86 ? ARM ? …
---
-<span foreground="red">Quel langage… pour quel usage ?</span>
-
-contraintes différentes → choix différents
-
-portabilité
-performance
-maintenance
-écosystème
---
-<span foreground="red">Quel langage… compilé ?</span>
-
-#C, C++, Java, …
---
-<span foreground="red">Quel langage… interprété ?</span>
-
-#javascript, python, perl, …
---
-<span foreground="red">Cible différente de l'hôte ?</span>
-
-→ compilation croisée
-<i>(si utilisation d'un langage compilé)</i>
---
-<span foreground="red">Quelle version de standard ?</span>
-
-<span foreground="red">C++</span>: C++98, C+03, C++11
-<span foreground="red">C</span>: C89, C99, C11
-<span foreground="red">Python</span>: 2.7, 3.x
---
-etc.
 --
 <span foreground="red"><big>« Il est tentant, quand on n'a
 pour seul outil un marteau,
@@ -130,19 +87,38 @@ Visual Studio
 Code::Blocks
 GNOME Builder
 etc.
--- [text-align=left]
+--
 <span foreground="red">Ce qu'on attend d'un éditeur</span>
 
-• coloration syntaxique
-• marque-pages
-• indentation automatique
-• macros
-• remplacement de texte
-• multi-documents
-• sélection rectangulaire
-• extensible
--- [toolbox.png][fill][bottom]
-+1
+coloration syntaxique
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+marque-pages
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+indentation automatique
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+macros
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+remplacement de texte
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+multi-documents
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+sélection rectangulaire
+--
+<span foreground="red">Ce qu'on attend d'un éditeur</span>
+
+extensible
 --
 <b>Bonnes pratiques d'édition :</b>
 --
@@ -160,14 +136,53 @@ Python PEP8: <small>https://www.python.org/dev/peps/pep-0008/</small>
 • facilite la lecture des diffs
 • évite l'attribution
 • sémantiquement important
-
 # Python, Makefile
+-- [toolbox.png][fill][bottom]
++1
 -- [programming-languages.jpg][fill]
 Langages
 --
 <span foreground="red">Choix du langage</span>
 
 le plus adapté… parmi ceux que maîtrisez
+--
+<span foreground="red">Contraintes</span>
+
+Quelle plate-forme(s) logicielle(s) ?
+# Windows ? GNU/Linux ? macOS ?
+# iOS ? Android ? …
+# Navigateur Web ?
+
+Quelle version(s) de plate-forme ?
+# Windows 10 ? Fedora 25 ? …
+
+Quelle plate-forme(s) matérielle(s) ?
+# x86 ? ARM ? …
+--
+<span foreground="red">Quel usage ?</span>
+
+portabilité
+performance
+maintenance
+écosystème
+--
+<span foreground="red">Quel langage… compilé ?</span>
+
+cible différente de l'hôte ?
+	→ compilation croisée
+# C, C++, Java, …
+--
+<span foreground="red">Quel langage… interprété ?</span>
+
+# javascript, python, perl, …
+--
+<span foreground="red">Quelle version de standard ?</span>
+
+<span foreground="red">C++</span>: C++98, C+03, C++11
+<span foreground="red">C</span>: C89, C99, C11
+<span foreground="red">Python</span>: 2.7, 3.x
+--
+etc.
 --
 Occasion d'apprendre
 un nouveau langage ?
@@ -310,12 +325,15 @@ Systèmes de gestion de version
 ✔ Rationale Synergy
 ✔ cpold
 -- [joel.jpg][bottom]
-<span foreground="red"><big>Le test de Joël</big></span>
+<span foreground="red">Joel Spolsky</span>
 
 http://french.joelonsoftware.com/Articles/TheJoelTest.html
 -- [text-align=left]
-<span foreground="green"><big>1. Utilisez-vous un système de gestion de code source ?</big></span>
-<small>2. Pouvez-vous faire un build en une seule étape ?
+<span foreground="red" font-weight="bold"><big>Le test de Joël</big></span>
+
+<span foreground="red"><big>1. Utilisez-vous un système de gestion de code source ?</big></span>
+<small>
+2. Pouvez-vous faire un build en une seule étape ?
 3. Faites-vous des builds quotidiens ?
 4. Avez-vous une base de données de bugs ?
 5. Corrigez-vous vos bugs avant d'écrire du nouveau code ?
@@ -325,7 +343,8 @@ http://french.joelonsoftware.com/Articles/TheJoelTest.html
 9. Utilisez-vous les meilleurs outils que vous puissiez vous payer ?
 10. Avez-vous des testeurs ?
 11. Les candidats écrivent-ils du code pendant leur entretien d'embauche ?
-12. Faites-vous des tests d'utilisabilité de couloir ?</small>
+12. Faites-vous des tests d'utilisabilité de couloir ?
+</small>
 --
 <span foreground="red">Définitions</span>
 
@@ -361,8 +380,8 @@ https://git-scm.com/
 --
 <span foreground="red">Git : avantages</span>
 
-agilité
 local = rapide
+agilité
 branches multiples
 merge facilité
 1 → n ou n → n
@@ -387,6 +406,133 @@ gros binaires
 git add .
 git commit</tt>
 --
+<b>Bonnes pratiques gestion de version :</b>
+--
+diff avant commit !
+-- [angry-linus.jpg][fill][bottom]
++1
+-- [construction.jpg][fill]
+Systèmes de construction
+-- [text-align=left]
+<span foreground="red" font-weight="bold"><big>Le test de Joël</big></span>
+
+<small>1. Utilisez-vous un système de gestion de code source ?</small>
+
+<span foreground="red"><big>2. Pouvez-vous faire un build en une seule étape ?</big></span>
+
+<small>3. Faites-vous des builds quotidiens ?
+4. Avez-vous une base de données de bugs ?
+5. Corrigez-vous vos bugs avant d'écrire du nouveau code ?
+6. Avez-vous un planning à jour ?
+7. Avez-vous une spec ?
+8. Les programmeurs bénéficient-ils d'un environnement de travail calme ?
+9. Utilisez-vous les meilleurs outils que vous puissiez vous payer ?
+10. Avez-vous des testeurs ?
+11. Les candidats écrivent-ils du code pendant leur entretien d'embauche ?
+12. Faites-vous des tests d'utilisabilité de couloir ?
+</small>
+--
+<span foreground="red">Systèmes de construction</span>
+
+Makefile
+Projet Eclipse, Visual Studio
+autotools
+CMake
+SCons
+etc.
+--
+<span foreground="red">Systèmes de construction</span>
+
+aide à la configuration
+debug/release
+construit les artefacts
+--
+<span foreground="red">Meson</span>
+
+http://mesonbuild.com
+-- [text-align=left]
+<span foreground="red">Meson</span>
+
+dépendances : Ninja, python 3
+= facilement déployable
+--
+<span foreground="red">Ninja</span>
+
+https://ninja-build.org/
+--
+<span foreground="red">Ninja : buts</span>
+
+rapidité
+faire une chose, la faire bien → KISS
+--
+<span foreground="red">Ninja : particularités</span>
+
+langage de description, pas de programmation
+fichiers verbeux
+fichiers générés
+remplace <tt>make</tt> et les Makefiles
+backend pour CMake
+--
+<span foreground="red">Ninja : utilisateurs</span>
+
+Google Chrome
+GStreamer
+--
+<tt>mkdir build &amp;&amp; cd build &amp;&amp; meson ..</tt>
+<tt>ninja</tt>
+-- [meson-conftime.png]
+
+-- [meson-buildtime.png]
+
+-- [meson-emptytime.png]
+
+--
+Source: https://github.com/mesonbuild/meson/wiki/Simple%20comparison
+--
+<span foreground="red">Meson : résultats</span>
+
+« About 2.5x faster on Linux
+and 10x faster on Windows
+for building the core GStreamer repository »
+
+(comparé aux autotools)
+
+http://blog.nirbheek.in/2016/05/gstreamer-and-meson-new-hope.html
+--
+<b>Bonne pratique :</b>
+
+Ne construire que le nécessaire
+-- [toolbox.png][fill][bottom]
+<span foreground="red">Trouvez vos outils</span>
+-- [toolbox.png][fill][bottom]
+<span foreground="red">Trouvez votre workflow</span>
+--
+FIN
+--
+Questions ?
+
+-- [more-questions.jpg][fill]
+
+--
+Analyseurs statiques
+--
+*lint, deblint, pylint, coala, shellcheck
+indispensable pour les langages interprétés
+enseigne les bonnes pratiques
+--
+<span foreground='red'>Coala</span>
+#--
+#Licences
+#
+# ne pas copier/coller du code sans connaitre exactement la licence et les droits
+# libre ne veut pas dire compatible
+# diagramme de compatibilité de licences: https://www.dwheeler.com/essays/floss-license-slide.html
+# logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
+-- [text-align=left]
+vim + git + pinpoint
+vim + git + lilypond + GNU Make
+vim + git + dot
+--
 <span foreground="red">♥ Git</span>
 
 <tt>git rebase --interactive</tt>
@@ -410,31 +556,4 @@ git commit</tt>
 <span foreground="red">♥ Git</span>
 
 <tt>git format-patch</tt>
---
-<b>Bonnes pratiques gestion de version :</b>
---
-diff avant commit !
--- [angry-linus.jpg][fill][bottom]
-+1
---
-Build systems
---
-Analyseurs statiques
---
-<span foreground='red'>Coala</span>
-(*lint, deblint, pylint, coala, shellcheck)
---
-Licences
-
-# ne pas copier/coller du code sans connaitre exactement la licence et les droits
-# libre ne veut pas dire compatible
-# dwheeler
-# logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
-
--- [toolbox.png][fill][bottom]
-<span foreground="red">Trouvez vos outils</span>
--- [toolbox.png][fill][bottom]
-<span foreground="red">Trouvez votre workflow</span>
---
-FIN
 --
