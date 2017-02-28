@@ -12,6 +12,8 @@ Créer une application:
 
 le guide incomplet…
 mais pratique quand même
+
+<span font='20'>Licence: CC-BY-4.0</span>
 -- [text-align=left]
 <span foreground="red">Luis Menina</span>
 
@@ -508,52 +510,82 @@ Ne construire que le nécessaire
 <span foreground="red">Trouvez votre workflow</span>
 --
 FIN
+-- [text-align=left]
+<span foreground="red">CREDITS</span>
+--
+idea.jpg by Marius Brede
+CC-BY-SA 2.0
+https://www.flickr.com/photos/miles92/6185218072/in/gallery-maheshones-72157641956699703/
+
+conception.jpg
+CC0
+https://pixabay.com/en/software-internet-web-design-657188/
+
+source-code.jpg
+CC0
+https://pixabay.com/en/source-code-code-programming-c-583537/
+
+toolbox.png
+CC0 1.0
+https://openclipart.org/detail/190367/toolbox
+
+keyboard.jpg
+CC0
+https://pixabay.com/en/keyboard-computer-buttons-laptop-1983410/
+
+money.jpg
+CC0
+https://pixabay.com/en/money-finance-wealth-currency-163502/
+
+troll.jpg by TrumpTrump
+CC-BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:The_Wild_Troll,_in_its_natural_habitat,_the_wikipedia..jpg
+
+libreoffice-origins.png
+CC0
+https://fr.wikipedia.org/wiki/LibreOffice#/media/File:StarOffice_major_derivatives.svg
+
+trump.png
+CC0
+https://pixabay.com/en/leadership-rule-trump-president-2045290/
+
+programming-languages.jpg
+CC0
+https://pixabay.com/en/books-bookshelf-computer-science-942485/
+
+librsvg-logo.png
+GPL-2+
+
+poll.png
+CC0
+https://pixabay.com/en/ballot-box-box-poll-election-vote-32384/
+
+git-branching-model.png by Vincent Driessen
+http://nvie.com/posts/a-successful-git-branching-model/
+
+joel.jpg
+CC BY-SA 4.0
+https://en.wikipedia.org/wiki/Joel_Spolsky#/media/File:Joel_Spolsky_2014-06-18.jpg
+
+git.png by Jason Long
+CC BY 3.0
+https://fr.wikipedia.org/wiki/Git#/media/File:Git-logo.svg
+
+linus.jpg
+http://www.muylinux.com/2015/06/17/linus-torvalds-futuro-linux
+
+angry-linus.jpg
+https://arstechnica.com/business/2015/01/linus-torvalds-on-why-he-isnt-nice-i-dont-care-about-you/
+
+more-questions.jpg
+CC0
+https://www.pexels.com/photo/ask-more-questions-signage-92028/
+
+construction.jpg
+CC0
+https://www.pexels.com/photo/tower-crane-on-top-of-building-29106/
 --
 Questions ?
 
 -- [more-questions.jpg][fill]
 
---
-Analyseurs statiques
---
-*lint, deblint, pylint, coala, shellcheck
-indispensable pour les langages interprétés
-enseigne les bonnes pratiques
---
-<span foreground='red'>Coala</span>
-#--
-#Licences
-#
-# ne pas copier/coller du code sans connaitre exactement la licence et les droits
-# libre ne veut pas dire compatible
-# diagramme de compatibilité de licences: https://www.dwheeler.com/essays/floss-license-slide.html
-# logiciel libre et licences libres (évoquer SPDX, Creative Commons pour les resources non-code)
--- [text-align=left]
-vim + git + pinpoint
-vim + git + lilypond + GNU Make
-vim + git + dot
---
-<span foreground="red">♥ Git</span>
-
-<tt>git rebase --interactive</tt>
---
-<span foreground="red">♥ Git</span>
-
-<tt>git commit --amend</tt>
---
-<span foreground="red">♥ Git</span>
-
-<tt>git add --patch</tt>
---
-<span foreground="red">♥ Git</span>
-
-<tt>git stash</tt>
---
-<span foreground="red">♥ Git</span>
-
-<tt>git bissect</tt>
---
-<span foreground="red">♥ Git</span>
-
-<tt>git format-patch</tt>
---
