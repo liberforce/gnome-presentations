@@ -6,7 +6,7 @@ all: ${OBJS}
 
 %.pdf: %.pin
 	@grep -v '^#' $< > ${DOC} # Remove comments from the generated pdf
-	@cat CREDITS >> ${DOC}
+	@cat CREDITS >> ${DOC}    # Append credits
 	pinpoint ${DOC} -o $@
 	-rm ${DOC}
 
